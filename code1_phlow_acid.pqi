@@ -1,0 +1,335 @@
+#DATABASE phreeqc.dat
+
+KNOBS
+ -iterations 1000
+ -convergence_tolerance 1e-12
+ -tolerance 1e-12
+ -step_size 10.
+ -pe_step_size 5.
+ -diagonal_scale true
+
+
+SURFACE_MASTER_SPECIES
+# Oil
+Oil_w Oil_wCOOH # Carboxylic acid group
+Oil_s Oil_sNH+ # Amin base group
+# Calcite
+Surf_s Surf_sCaOH #Hydrated Calcium cation surface site
+Surf_w Surf_wCO3H #Hydrated Carbonate anion surface site
+
+SURFACE_SPECIES
+# ============================
+# DEFINICIÓN DE SITIOS ACTIVOS
+# ============================
+
+Oil_sNH+ = Oil_sNH+
+    log_k     0.0  # Sitio cargado (protonado)
+
+Oil_wCOOH = Oil_wCOOH
+    log_k     0.0  # Grupo carboxílico no disociado
+
+
+# ============================
+# DESPROTONACIÓN DE SUPERFICIES ORGÁNICAS
+# ============================
+
+Oil_sNH+ = Oil_sN + H+
+    log_k     -3.61    # Fuente: Regazzoni et al., 1983
+    delta_h   34.0     # kJ/mol (valor experimental de desprotonación de aminas)
+
+Oil_wCOOH = Oil_wCOO- + H+
+    log_k     -3.03    # Fuente: Dzombak & Morel, 1990
+    delta_h   28.0     # kJ/mol (típico para carboxilos)
+
+# ============================
+# COMPLEJOS CON CATIONES DIVALENTES (ORGÁNICOS)
+# ============================
+
+Oil_wCOOH + Ca+2 = Oil_wCOOCa+ + H+
+    log_k     -3.72    # Fuente: Hiemstra & Van Riemsdijk, 1996
+    delta_h   1.2      # Ligando débil
+
+Oil_wCOOH + Mg+2 = Oil_wCOOMg+ + H+
+    log_k     -3.92    # Fuente: Hiemstra & Van Riemsdijk, 1996
+    delta_h   1.2
+
+# ============================
+# GRUPOS SUPERFICIALES EN CALCITA
+# ============================
+
+Surf_sCaOH = Surf_sCaOH
+    log_k     0.0  # Hidroxilo neutro
+
+Surf_sCaOH + H+ = Surf_sCaOH2+
+    log_k     6.75     # Fuente: Pokrovsky et al., 1999 (ajustado a 100°C)
+    delta_h   -77.5    # Exotérmico; fuerte afinidad protónica
+
+Surf_sCaOH = Surf_sCaO- + H+
+    log_k     -11.41   # Fuente: Van Cappellen et al., 1993
+    delta_h   18.3     # Endotérmico
+
+# ============================
+# GRUPOS CARBONATADOS SUPERFICIALES
+# ============================
+
+Surf_wCO3H = Surf_wCO3H
+    log_k     0.0
+
+Surf_wCO3H = Surf_wCO3- + H+
+    log_k     -4.52    # Fuente: Yoon et al., 1999
+    delta_h   8.3
+
+Surf_wCO3H + Ca+2 = Surf_wCO3Ca+ + H+
+    log_k     -2.52    # Fuente: Pokrovsky & Schott, 2002
+    delta_h   1.2
+
+Surf_wCO3H + Mg+2 = Surf_wCO3Mg+ + H+
+    log_k     -1.88    # Fuente: Pokrovsky & Schott, 2002
+    delta_h   4.5
+
+# ============================
+# PRECIPITACIÓN DE CARBONATO EN SUPERFICIE
+# ============================
+
+Surf_sCaOH + HCO3- = Surf_sCaCO3- + H2O
+    log_k     11.16    # Fuente: Stumm & Morgan, 1996 (ajustado a 100 °C)
+    delta_h   -61.6    # Precipitación exotérmica
+
+# ============================
+# INTERACCIÓN CON SULFATO
+# ============================
+
+Surf_sCaOH + SO4-2 = Surf_sCaSO4- + OH-
+    log_k     -7.55    # Fuente: Van Cappellen et al., 1993
+    delta_h   -22.0
+
+
+PHASES
+Fix_H+
+    H+ = H+
+    log_k 0
+
+Fix_H+
+    HCl = H+ + Cl-
+    log_k 0
+
+
+KBr
+    KBr = K+ + Br-
+    log_k -20
+
+Magnesite
+    MgCO3 = Mg+2 + CO3-2
+    log_k     -6.56       # Fuente: SUPCRT92 / LLNL database, ajustado a 100 °C
+    delta_h   -53.9       # [kJ/mol] equivalente a -12.89 kcal/mol (exotérmico)
+
+
+CO2_aq
+    CO2 + H2O = HCO3- + H+
+    log_k -6.09
+    delta_h 7.4
+
+HCO3_to_CO3
+    HCO3- = CO3-2 + H+
+    log_k -9.28
+    delta_h 14.9
+
+Water_dissociation
+    H2O = OH- + H+
+    log_k -12.25
+    delta_h 55.8
+
+CaCO3_diss
+    CaCO3 = Ca+2 + CO3-2
+    log_k -8.90
+    delta_h -12.7
+
+CaOH_formation
+    Ca+2 + H2O = CaOH+ + H+
+    log_k -10.66
+    delta_h 18.3
+
+CaHCO3_formation
+    CO3-2 + Ca+2 + H+ = CaHCO3+
+    log_k 11.50
+    delta_h -5.6
+
+MgCO3_diss
+    MgCO3 = Mg+2 + CO3-2
+    log_k -8.15
+    delta_h -9.8
+
+MgOH_formation
+    Mg+2 + H2O = MgOH+ + H+
+    log_k -10.02
+    delta_h 21.0
+
+MgHCO3_formation
+    CO3-2 + Mg+2 + H+ = MgHCO3+
+    log_k 10.98
+    delta_h -6.1
+
+NaCO3_formation
+    Na+ + CO3-2 = NaCO3-
+    log_k 1.52
+    delta_h 3.2
+
+NaHCO3_formation
+    Na+ + HCO3- = NaHCO3
+    log_k -0.41
+    delta_h -2.4
+
+Na2SO4_diss
+    Na2SO4 = 2Na+ + SO4-2
+    log_k 0.70
+    delta_h 1.8
+
+CaSO4_formation
+    Ca+2 + SO4-2 = CaSO4
+    log_k 2.30
+    delta_h -10.5
+
+MgSO4_formation
+    Mg+2 + SO4-2 = MgSO4
+    log_k 2.50
+    delta_h -9.7
+
+NaSO4_formation
+    Na+ + SO4-2 = NaSO4-
+    log_k 0.84
+    delta_h 0.7
+
+HSO4_formation
+    SO4-2 + H+ = HSO4-
+    log_k 1.20         # Valor a 100°C (SUPCRT/slop16.dat)
+    delta_h -22.5      # kJ/mol
+
+SOLUTION_SPREAD
+# pH      3     # pH inicial antes de que Fix_H+ lo ajuste
+# pe      1
+# redox   pe
+-units mmol/kgw #mass of solids = 79.04 g/kg water
+-water 1.0
+-density 1.00226
+-temp 100
+-pressure 220  #bar
+pH	Na	Mg	Ca	Cl	C	S(6) 
+  charge
+INCLUDE$ data_phlow_acid1.txt
+END
+
+SURFACE 1 # # Acidic crude oil
+-sites_units density
+Oil_wCOOH 5.0 3.5 0.9  # sites, area/gram (m2/g), mass (g)
+Oil_sNH 0.3            # Correção para sites NH+ (TBN baixo)
+# Carbonates interaction (for reference)
+Surf_sCaOH 4.9 0.2 0.2
+Surf_wCO3H 4.9
+ -diffuse_layer
+
+  #Calcite    0    1.3    1.3   # Calcita existente, puede disolverse pero no precipitar
+   # Anhydrite  0    0.1      0.1    # Anhidrita existente, clave para liberar SO₄²⁻
+ #CO2(g) -3.0
+ 
+
+ 
+EQUILIBRIUM_PHASES 1-300
+
+Calcite    0    0  
+Anhydrite  0    0   
+CO2(g)    -3.2
+
+Fix_H+   -3.0    HCl  1
+
+KBr    0   10
+
+
+Magnesite   -0.1   0    # Subsaturación para evitar MgCO₃
+
+Halite    0 0
+
+RUN_CELLS
+-cells 1-300
+
+SELECTED_OUTPUT
+    -file                 fw3V1.sel
+    -reset                 false
+
+
+SELECTED_OUTPUT 
+        -file   SURF10a.sel
+        -reset false
+        -Simulation
+        -Solution
+        -pH
+        -temp
+        -si Magnesite    # Si SI < 0: no precipita; SI ≥ 0: precipita
+        -si Calcite
+        -si CO2(g)    # SI < 0: CO₂ disuelto; SI ≥ 0: formación de gas
+        
+             
+USER_PUNCH 
+
+-headings cwa, density, rhoo,  GA, TDS, SO4-2, Mg2+, MgSO4, MgHCO3+, MgCO3, H+, Na+, Cl-,  OH-,  HCO3-,  CO3-2,  CaCO3,  CaHCO3+,  CO2,  Ca+2,  CaOH+, NaCO3-, \
+ NaHCO3, carb, hydr, oxyg, calc, natr, chlr, ominh, cooil, coco2,  Oil_sNH+, Oil_sN,\
+                  Oil_wCOOH, Oil_wCOO-, Oil_wCOOCa+, Surf_sOH, Surf_wCO3H, Surf_sOH2+, Surf_wCO3-,\
+Oil_wCOOMg+, Surf_wCO3Mg+, Surf_wCO3-, Surf_wCO3Ca+, EDL_oil, EDL_Ca, TBP, TBP1, TBP2, TBP3, TBP4 
+  
+
+95         GA = 0.001 * (1000 +  MOL("H+") * GFW("H+") + MOL("Na+")*GFW("Na+")+ MOL("Cl-")*GFW("Cl-")+ MOL("OH-")* GFW("OH-")+ \
+                MOL("HCO3-")*GFW("HCO3-")+ \ 
+                MOL("CO3-2")* GFW("CO3-2")+ MOL("CaCO3") * GFW("CaCO3")+ \
+                MOL("CaHCO3+") * GFW("CaHCO3+")+  MOL("CO2") * GFW("CO2")+ \
+                MOL("Ca+2") * GFW("Ca+2")+MOL("Mg+2") * GFW("Mg+2")+ MOL("CaOH+")*GFW("CaOH+")+ \
+                MOL("NaCO3-") * GFW("NaCO3-")+ MOL("NaHCO3") * GFW("NaHCO3")) / RHO
+96 carb = MOL("HCO3-") + MOL("CO3-2") + MOL("CaCO3") + MOL("CaHCO3+") + MOL("CO2") + \
+       MOL("NaCO3-") + MOL("NaHCO3") 
+97 hydr = MOL("H+")  + MOL("OH-") + MOL("HCO3-") + MOL("CaHCO3+") + \
+         MOL("CaOH+") + MOL("NaHCO3") 
+98 oxyg = MOL("OH-") + 3.0 * MOL("HCO3-") + 3.0 * MOL("CO3-2") + 3.0 * MOL("CaCO3") + \
+        3.0 * MOL("CaHCO3+") + 2.0 * MOL("CO2") + MOL("CaOH+") + \
+        3.0 * MOL("NaCO3-")  + 3.0 * MOL("NaHCO3") 
+99 calc = MOL("CaCO3") + MOL("CaHCO3+") + MOL("Ca+2") + MOL("CaOH+")
+100 natr = MOL("Na+") + MOL("NaCO3-") +  MOL("NaHCO3") 
+101 chlr = MOL("Cl-")
+102 ominh = 2* oxyg - hydr
+103 coco2 = 2.5 * MOL("CO2") / GA
+104 if coco2 > 18 then coco2 = 18.0
+105 cooil = (1.0 - coco2 / 18.44) * 4.9605 : rem corrected formula
+106 rhoo = coco2 + cooil
+107 cwa = 1.0 / GA / 0.018
+
+
+108 tbp1=(MOL("Oil_wCOO-") / GA)*((MOL("Surf_sCaOH2+")/GA)+(MOL("Surf_wCO3Ca+")/GA)+(MOL("Surf_wCO3Mg+")/GA))
+109 tbp2=(MOL("Oil_sNH+") / GA)*((MOL("Surf_wCO3-")/GA)+(MOL("Surf_sCaO-")/GA)+(MOL("Surf_sCaCO3-")/GA)+(MOL("Surf_sCaSO4-")/GA))
+110 tbp3=(MOL("Oil_wCOOCa+") / GA)*((MOL("Surf_wCO3-")/GA)+(MOL("Surf_sCaO-")/GA)+(MOL("Surf_sCaCO3-")/GA)+(MOL("Surf_sCaSO4-")/GA))
+111 tbp4=(MOL("Oil_wCOOMg+")/GA)*((MOL("Surf_wCO3-")/GA)+(MOL("Surf_sCaO-")/GA)+(MOL("Surf_sCaCO3-")/GA)+(MOL("Surf_sCaSO4-")/GA))
+112 tbp=tbp1+tbp2+tbp3+tbp4
+
+113 TDS=MOL("Na")*22.99+MOL("Mg")*24.305+MOL("Ca")*40.078+MOL("Cl")*35.453 +MOL("HCO3-")*61.016+MOL("SO4-2")*96.06+MOL("CO3-2")*60.01
+
+
+114 PUNCH cwa, RHO, rhoo,  GA, TDS, log(MOL("SO4-2")/GA), log(MOL("Mg+2") / GA), log(MOL("MgSO4")/GA), log(MOL("MgHCO3+")/GA), log(MOL("MgCO3")/GA), log(MOL("H+") / GA), log(MOL("Na+")/GA), log(MOL("Cl-")/GA), log(MOL("OH-")/ GA), \
+                log(MOL("HCO3-")/GA), \ 
+                log(MOL("CO3-2")/ GA), log(MOL("CaCO3") / GA), \
+                log(MOL("CaHCO3+") / GA),  log(MOL("CO2") / GA), \
+                log(MOL("Ca+2") / GA), log(MOL("CaOH+")/GA), \
+                log(MOL("NaCO3-") / GA), log(MOL("NaHCO3") / GA), \
+                log(carb / GA), log(hydr / GA), log(oxyg / GA), log(calc / GA), \
+                log(natr / GA), log(chlr / GA), log(ominh / GA), log (cooil), log(coco2), log(MOL("Oil_sNH+") / GA), log( MOL("Oil_sN")/ GA),\
+                log(MOL("Oil_wCOOH") / GA), log(MOL("Oil_wCOO-") / GA), log(MOL("Oil_wCOOCa+") / GA), \
+                log(MOL("Surf_sCaOH") / GA), log(MOL("Surf_wCO3H") /GA), log(MOL("Surf_sCaOH2+")/GA), log(MOL("Surf_wCO3-")/GA), \
+                log(MOL("Surf_wCO3-")/GA), log(MOL("Oil_wCOOMg+")/GA), log(MOL("Surf_wCO3Mg+")/GA), log(MOL("Surf_wCO3Ca+")/GA),  EDL("Charge", "Oil"), EDL("Charge", "Ca"), tbp, tbp1, tbp2, tbp3, tbp4
+
+
+#INCLUDE$ fw3V1.sel
+
+INCLUDE$ input_phlow_acid.txt
+
+END
+
+
+
+
+
+#################################################################

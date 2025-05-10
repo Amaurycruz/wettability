@@ -1,0 +1,1500 @@
+USE solution            1; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            2; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            3; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            4; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            5; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            6; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            7; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            8; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            9; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            10; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            11; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            12; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            13; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            14; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            15; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            16; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            17; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            18; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            19; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            20; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            21; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            22; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            23; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            24; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            25; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            26; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            27; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            28; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            29; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            30; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            31; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            32; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            33; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            34; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            35; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            36; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            37; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            38; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            39; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            40; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            41; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            42; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            43; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            44; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            45; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            46; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            47; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            48; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            49; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            50; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            51; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            52; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            53; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            54; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            55; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            56; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            57; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            58; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            59; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            60; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            61; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            62; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            63; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            64; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            65; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            66; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            67; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            68; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            69; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            70; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            71; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            72; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            73; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            74; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            75; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            76; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            77; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            78; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            79; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            80; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            81; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            82; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            83; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            84; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            85; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            86; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            87; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            88; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            89; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            90; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            91; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            92; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            93; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            94; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            95; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            96; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            97; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            98; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            99; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            100; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            101; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            102; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            103; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            104; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            105; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            106; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            107; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            108; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            109; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            110; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            111; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            112; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            113; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            114; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            115; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            116; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            117; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            118; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            119; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            120; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            121; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            122; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            123; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            124; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            125; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            126; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            127; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            128; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            129; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            130; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            131; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            132; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            133; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            134; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            135; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            136; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            137; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            138; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            139; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            140; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            141; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            142; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            143; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            144; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            145; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            146; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            147; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            148; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            149; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            150; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            151; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            152; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            153; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            154; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            155; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            156; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            157; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            158; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            159; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            160; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            161; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            162; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            163; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            164; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            165; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            166; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            167; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            168; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            169; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            170; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            171; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            172; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            173; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            174; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            175; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            176; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            177; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            178; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            179; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            180; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            181; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            182; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            183; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            184; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            185; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            186; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            187; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            188; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            189; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            190; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            191; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            192; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            193; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            194; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            195; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            196; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            197; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            198; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            199; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            200; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            201; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            202; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            203; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            204; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            205; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            206; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            207; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            208; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            209; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            210; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            211; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            212; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            213; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            214; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            215; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            216; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            217; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            218; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            219; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            220; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            221; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            222; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            223; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            224; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            225; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            226; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            227; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            228; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            229; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            230; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            231; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            232; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            233; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            234; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            235; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            236; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            237; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            238; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            239; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            240; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            241; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            242; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            243; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            244; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            245; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            246; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            247; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            248; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            249; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            250; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            251; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            252; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            253; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            254; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            255; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            256; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            257; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            258; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            259; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            260; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            261; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            262; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            263; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            264; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            265; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            266; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            267; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            268; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            269; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            270; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            271; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            272; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            273; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            274; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            275; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            276; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            277; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            278; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            279; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            280; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            281; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            282; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            283; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            284; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            285; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            286; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            287; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            288; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            289; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            290; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            291; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            292; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            293; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            294; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            295; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            296; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            297; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            298; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            299; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
+USE solution            300; USE surface 1
+EQUILIBRIUM_PHASES 2
+    Fix_H+  -3.0100e++00 HCl 5.2 
+END
+
